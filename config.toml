@@ -1,0 +1,75 @@
+baseurl = "http://www.deathowl.com"
+title = "Deathowl"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+
+[params]
+    author = "Balint Csergo"
+    info = "Production Engineer and Open Source Tinkerer"
+    description = "~"
+    keywords = "blog,developer,portfolio"
+    avatarurl = "images/avatar.jpeg"
+
+    favicon_32 = "images/favicon-32x32.png"
+    favicon_16 = "images/favicon-16x16.png"
+
+
+    hidecredits = false
+    hidecopyright = true
+
+    rtl = false
+
+    math = true
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/deathowl/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/abagoly/"
+[[params.social]]
+    name = "Linkedin"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 3
+    url = "https://www.linkedin.com/in/deathowl/"
+
+
+# Menu links
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
+[[menu.main]]
+    name = "Projects"
+    weight = 2
+    url = "/projects/"
+
+[deployment]
+order = [".png$", ".jpg$", ".gif$", ".svg$"]
+
+[[deployment.targets]]
+URL = "s3://hugo?endpoint=s3.fr-par.scw.cloud&region=fr-par"
+
+[[deployment.matchers]]
+# Cache static assets for 20 years.
+pattern = "^.+\\.(js|css|png|jpg|gif|svg|ttf)$"
+cacheControl = "max-age=630720000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true
