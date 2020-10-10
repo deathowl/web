@@ -1,4 +1,4 @@
-baseurl = "http://www.deathowl.com"
+baseurl = "http://deathowl.com"
 title = "Deathowl"
 theme = "hugo-coder"
 languagecode = "en"
@@ -52,17 +52,17 @@ pygmentscodefencesguesssyntax = true
 [[menu.main]]
     name = "About"
     weight = 2
-    url = "/about/"
+    url = "/about/index.html"
 [[menu.main]]
     name = "Projects"
     weight = 2
-    url = "/projects/"
+    url = "/projects/index.html"
 
 [deployment]
 order = [".png$", ".jpg$", ".gif$", ".svg$"]
 
 [[deployment.targets]]
-URL = "s3://hugo?endpoint=s3.fr-par.scw.cloud&region=fr-par"
+URL = "s3://deathowl.com?region=eu-west-1"
 
 [[deployment.matchers]]
 # Cache static assets for 20 years.

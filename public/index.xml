@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deathowl</title>
-    <link>http://www.deathowl.com/</link>
+    <link>http://deathowl.com/</link>
     <description>Recent content on Deathowl</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://www.deathowl.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="http://deathowl.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projects</title>
-      <link>http://www.deathowl.com/projects/</link>
+      <link>http://deathowl.com/projects/</link>
       <pubDate>Wed, 07 Oct 2020 02:01:40 +0100</pubDate>
       
-      <guid>http://www.deathowl.com/projects/</guid>
+      <guid>http://deathowl.com/projects/</guid>
       <description>Projects I am actively working on
  OpenBMC: is an open software framework to build a complete Linux image for a Board Management Controller (BMC) TestSlide: A test framework for Python that enable unit testing / TDD / BDD to be productive and enjoyable. Go-metrics-prometheus: A bridge to expose Go-metrics metrics to a Prometheus metrics registry Certbot-vault-plugin: Store your letsencrypt certificates in Hashicorp Vault Certbot-redis-plugin: a certbot plugin, that makes possible to store letsencrypt http-01 challenges in redis, to be served by your web application Openduty: Open source incident escalation tool  </description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://www.deathowl.com/about/</link>
+      <link>http://deathowl.com/about/</link>
       <pubDate>Wed, 07 Oct 2020 01:44:03 +0100</pubDate>
       
-      <guid>http://www.deathowl.com/about/</guid>
+      <guid>http://deathowl.com/about/</guid>
       <description>Short summary:
 My name is Bálint Csergő. I&amp;rsquo;m a Software/Systems Engineer. Currently a Production Engineer @ Facebook.
 About my interest shortly:
